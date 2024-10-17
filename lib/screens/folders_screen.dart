@@ -58,7 +58,7 @@ class _FoldersScreenState extends State<FoldersScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Card Organizer'),
+        title: const Text("Justin's Card Organizer"),
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(16),

@@ -71,7 +71,7 @@ class _CardsScreenState extends State<CardsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.folderName} Cards'),
+        title: Text('${widget.folderName}'),
       ),
       body: GridView.builder(
         padding: EdgeInsets.all(16),
